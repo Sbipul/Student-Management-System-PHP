@@ -1,0 +1,128 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+li {
+	display: inline-block;
+}
+a {
+	text-decoration: none;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+.area {
+	min-height: 79vh;
+}
+
+
+.header_menu input {
+	border: none;
+	background: no-repeat;
+	padding: 0px 10px;
+	color: white;
+	padding: 5px 10px;
+}
+.focus {
+	background: #2366bb;
+	border-radius: 25px;
+	border: none;
+	box-shadow: 2px 2px 2px #242424;
+}
+.footer-txt p {
+	color: white;
+	text-align: center;
+}
+form {
+	width: 100%;
+}
+form input {
+	display: block;
+	width: 100%;
+	margin-bottom: 10px;
+	padding: 7px;
+}
+form select {
+	width: 100%;
+	padding: 7px;
+	border-radius: 2px;
+	border: 1px solid gray;
+	margin-bottom: 10px;
+}
+form button {
+	padding: 7px 12px;
+	background: #0078f9;
+	color: white;
+}
+
+/* php code  */
+
+.error {
+	background: rgb(216, 75, 75);
+	margin: 10px 0px;
+	color: white;
+	text-align: center;
+}
+.success {
+	background: rgb(48, 163, 73);
+	margin: 10px 0px;
+	color: white;
+	text-align: center;
+}
+
+/* view.php  */
+.table {
+	margin-bottom: 0;
+}
+table {
+    width: 100%;
+	margin: 0;
+}
+td a i {
+	margin: 0px 5px;
+}
+
+/* edit page  */
+.single_form {
+	margin: auto;
+}
+.single_form label {
+	background: white;
+	padding: 4px 5px;
+	position: relative;
+	z-index: 2;
+}
+.single_form input {
+	display: block;
+	background: none;
+	border: none;
+	padding: 8px 5px;
+	margin-top: -22px;
+	position: relative;
+	z-index: 1;
+	font-size: 25px;
+	color: green;
+}
+.all_s {
+	display: grid;
+	grid-template-columns: auto auto auto;
+	grid-row-gap: 20px;
+	padding-top: 50px;
+}
+.update {
+	margin-left: 82px;
+	margin-top: 20px;
+}
+.update input {
+	padding: 4px 12px;
+	background: #0070ff;
+	color: white;
+	bottom: ;
+	border: none;
+}
